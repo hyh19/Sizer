@@ -12,7 +12,7 @@ class FourthPageScreen extends StatefulWidget {
 class _FourthPageScreenState extends State<FourthPageScreen> {
   @override
   Widget build(BuildContext context) {
-    return SizerUtil.orientation == Orientation.portrait
+    return Device.orientation == Orientation.portrait
         ? _widPortrait()
         : _widLandScape();
   }

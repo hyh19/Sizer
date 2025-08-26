@@ -1,3 +1,16 @@
+# [3.1.3] - 26.08.2025.
+* Fix minor bug
+
+# [3.1.2] - 26.08.2025.
+* Fix minor bug
+
+# [3.1.1] - 26.08.2025.
+* Fix minor bug
+
+# [3.1.0] - 26.08.2025.
+* Update lint support
+* Fix minor bug
+
 # [3.0.4] - 19.11.2024.
 
 * Update lint support 5.0.0

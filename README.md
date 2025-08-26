@@ -1,19 +1,28 @@
 ### Sizer (Responsive UI solution for Mobile App,Web and Desktop)
 
-<p align="center" >
-  <strong>Sizer is helps you to create responsive UI easily.</strong>
-  <br />
-  <br />
-  <a href="https://www.buymeacoffee.com/fluttersizer" target="_blank"><img width="180px" src="https://raw.githubusercontent.com/TechnoUrmish/Sizer/master/example/images/iv_buy_me_a_coffee.png" style="height: 51px !important;width: 217px !important;" ></a>
+<p align="center">
+  <strong>Looking for Flutter development support? Let’s connect — available on WhatsApp and Email.</strong>
+  <br /><br />
+
+  <!-- WhatsApp -->
+  <a href="https://wa.me/919825711336" target="_blank">
+    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  </a>
+
+  <!-- Email -->
+  <a href="mailto:prashant09mca@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
 </p>
 
 <br />
 
-A Flutter package that effortlessly makes your apps responsive. It automatically adapts the UI to various screen sizes, making responsiveness simple and intuitive. Responsiveness made easy.
+A Flutter package that simplifies responsive design by automatically adapting your app’s UI to any screen size — making responsiveness seamless and intuitive.
 
-![Alt Text](https://github.com/TechnoUrmish/Sizer/blob/master/example/images/img_ss_with_lib.png)
+![With Sizer](https://raw.githubusercontent.com/TechnoPrashant/Sizer/master/example/images/img_ss_with_lib.png)
 
-![Alt Text](https://github.com/TechnoUrmish/Sizer/blob/master/example/images/img_ss_without_lib.png)
+![Without Sizer](https://raw.githubusercontent.com/TechnoPrashant/Sizer/master/example/images/img_ss_without_lib.png)
+
 
 ### Content
 
@@ -27,7 +36,7 @@ A Flutter package that effortlessly makes your apps responsive. It automatically
 Add `sizer` to pubspec.yaml
 ```yaml
 dependencies:
-  sizer: ^3.0.3
+  sizer: ^3.1.3
 ```
 
 ### How to use ⚙️ 
@@ -68,7 +77,7 @@ Text(
 
 ### Orientation
 
-If you want to support both portrait and landscape orientations
+If your app needs to work seamlessly in both portrait and landscape orientations
 ```dart
 Device.orientation == Orientation.portrait
   ? Container(   // Widget for Portrait

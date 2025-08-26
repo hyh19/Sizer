@@ -21,8 +21,8 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       floatingActionButton: Padding(
         padding: EdgeInsets.only(
-            bottom: SizerUtil.deviceType == DeviceType.tablet ? 1.h : 0.0,
-            right: SizerUtil.deviceType == DeviceType.tablet ? 2.w : 0.0),
+            bottom: Device.deviceType == ScreenType.tablet ? 1.h : 0.0,
+            right: Device.deviceType == ScreenType.tablet ? 2.w : 0.0),
         child: SizedBox(
           height: 7.h,
           width: 7.h,

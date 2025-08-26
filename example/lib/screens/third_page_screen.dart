@@ -12,7 +12,7 @@ class ThirdPageScreen extends StatefulWidget {
 class _ThirdPageScreenState extends State<ThirdPageScreen> {
   @override
   Widget build(BuildContext context) {
-    return SizerUtil.orientation == Orientation.portrait
+    return Device.orientation == Orientation.portrait
         ? _widPortrait()
         : _widLandScape();
   }

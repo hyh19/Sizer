@@ -12,7 +12,7 @@ class SecondPageScreen extends StatefulWidget {
 class _SecondPageScreenState extends State<SecondPageScreen> {
   @override
   Widget build(BuildContext context) {
-    return SizerUtil.orientation == Orientation.portrait
+    return Device.orientation == Orientation.portrait
         ? _widPortrait()
         : _widLandScape();
   }

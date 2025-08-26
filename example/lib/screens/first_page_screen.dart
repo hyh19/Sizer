@@ -12,7 +12,7 @@ class FirstPageScreen extends StatefulWidget {
 class _FirstPageScreenState extends State<FirstPageScreen> {
   @override
   Widget build(BuildContext context) {
-    return SizerUtil.orientation == Orientation.portrait
+    return Device.orientation == Orientation.portrait
         ? _widPortrait()
         : _widLandScape();
   }
